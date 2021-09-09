@@ -727,6 +727,11 @@ p {
   color: #1B2733;
 }
 
+#logo_img{
+  width: 35%;
+  height: auto;
+}
+
 .nav-item {
   font-weight: bold;
 }
@@ -1301,6 +1306,10 @@ hr {
 /*end carousel styling*/
 
 /*team card stying*/
+
+.faculty{
+  margin: auto;
+}
 
 .section-title{
   font-weight: 600;
