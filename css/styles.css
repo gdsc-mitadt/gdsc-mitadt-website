@@ -728,12 +728,18 @@ p {
 }
 
 #logo_img{
-  width: 35%;
+  width: 55%;
   height: auto;
 }
 
+nav .container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .nav-item {
-  font-weight: bold;
+  font-weight: 400;
+  font-szie: 1rem;
 }
 
 .custom-menu__light {
