@@ -732,7 +732,7 @@ p {
   height: auto;
 }
 
-nav .container{
+#container-nav{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
