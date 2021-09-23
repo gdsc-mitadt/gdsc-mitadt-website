@@ -728,12 +728,19 @@ p {
 }
 
 #logo_img{
-  width: 35%;
+  width: calc(30% + 150px);
   height: auto;
 }
 
+.container-nav{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0px 15px;
+}
+
 .nav-item {
-  font-weight: bold;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 .custom-menu__light {
